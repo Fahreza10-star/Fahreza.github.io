@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahreza | Robotics & AI Enthusiast</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .nav-link:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section with Vanta.js Background -->
+    <div id="hero" class="relative overflow-hidden min-h-screen flex items-center justify-center">
+        <div class="absolute inset-0 z-0" id="vanta-bg"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col items-center text-center py-20">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-4" data-aos="fade-down">Fahreza</h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6" data-aos="fade-down" data-aos-delay="100">
+                    Robotics & <span class="gradient-text">AI Enthusiast</span>
+                </h2>
+                <p class="text-lg md:text-xl text-white max-w-2xl mb-8" data-aos="fade-up" data-aos-delay="200">
+                    Building intelligent systems that bridge the physical and digital worlds through robotics, IoT, and artificial intelligence.
+                </p>
+                <div class="flex space-x-4" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#about" class="px-6 py-3 bg-white text-indigo-700 font-medium rounded-full hover:bg-opacity-90 transition duration-300">
+                        Explore My Work
+                    </a>
+                    <a href="#contact" class="px-6 py-3 border-2 border-white text-white font-medium rounded-full hover:bg-white hover:bg-opacity-10 transition duration-300">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-0 right-0 flex justify-center">
+            <a href="#about" class="animate-bounce">
+                <i data-feather="chevron-down" class="text-white w-8 h-8"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold gradient-text">Fahreza</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="nav-link text-gray-700 hover:text-indigo-600 transition duration-300">About</a>
+                    <a href="#expertise" class="nav-link text-gray-700 hover:text-indigo-600 transition duration-300">Expertise</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-indigo-600 transition duration-300">Projects</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-indigo-600 transition duration-300">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu" class="w-6 h-6 text-gray-700"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <img src="http://static.photos/technology/640x360/42" alt="Fahreza" class="rounded-lg shadow-xl w-full max-w-md mx-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        About <span class="gradient-text">Me</span>
+                    </h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Hello! I'm Fahreza, a passionate technologist specializing in robotics, Internet of Things (IoT), and artificial intelligence. With a background in engineering and computer science, I thrive at the intersection of hardware and software.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        My mission is to create intelligent systems that solve real-world problems by combining cutting-edge technologies with innovative thinking. I believe in the power of automation and AI to transform industries and improve lives.
+                    </p>
+                    <div class="flex flex-wrap gap-4 mt-8">
+                        <div class="flex items-center">
+                            <i data-feather="award" class="text-indigo-500 mr-2"></i>
+                            <span class="text-gray-700">5+ Years Experience</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="cpu" class="text-purple-500 mr-2"></i>
+                            <span class="text-gray-700">20+ Projects</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="users" class="text-blue-500 mr-2"></i>
+                            <span class="text-gray-700">10+ Collaborations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-down">
+                    My <span class="gradient-text">Expertise</span>
+                </h2>
+                <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up">
+                    Combining multiple disciplines to create innovative solutions for the future
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up">
+                    <div class="gradient-bg p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
+                        <i data-feather="cpu" class="text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Robotics</h3>
+                    <p class="text-gray-600">
+                        Designing and building autonomous robotic systems from mechanical components to embedded software and control algorithms.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gradient-bg p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
+                        <i data-feather="wifi" class="text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">IoT Solutions</h3>
+                    <p class="text-gray-600">
+                        Creating connected devices and systems that collect, analyze, and act on data to enable smart environments and automation.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gradient-bg p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
+                        <i data-feather="activity" class="text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">AI & Machine Learning</h3>
+                    <p class="text-gray-600">
+                        Developing intelligent algorithms for computer vision, natural language processing, predictive analytics, and decision making.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-down">
+                    Featured <span class="gradient-text">Projects</span>
+                </h2>
+                <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up">
+                    Some of my recent work that showcases my skills and passion
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/technology/640x360/101" alt="Autonomous Rover" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Autonomous Exploration Rover</h3>
+                        <p class="text-gray-600 mb-4">
+                            AI-powered rover capable of autonomous navigation and environmental analysis in challenging terrains.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">Robotics</span>
+                            <span class="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Computer Vision</span>
+                            <span class="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/technology/640x360/102" alt="Smart Home System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Intelligent Home Automation</h3>
+                        <p class="text-gray-600 mb-4">
+                            IoT ecosystem that learns user patterns and optimizes energy usage while maintaining comfort.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">IoT</span>
+                            <span class="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Edge Computing</span>
+                            <span class="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">ML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/technology/640x360/103" alt="Industrial Robot" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Collaborative Industrial Robot</h3>
+                        <p class="text-gray-600 mb-4">
+                            Safe human-robot collaboration system for manufacturing with real-time adaptive control.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">Robotics</span>
+                            <span class="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Safety Systems</span>
+                            <span class="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Control Theory</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12" data-aos="fade-up">
+                <a href="#" class="px-6 py-3 gradient-bg text-white font-medium rounded-full hover:opacity-90 transition duration-300 inline-block">
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-down">
+                        Get In <span class="gradient-text">Touch</span>
+                    </h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up">
+                        Interested in collaborating or have questions about my work? Feel free to reach out!
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl shadow-md p-8 md:p-10" data-aos="fade-up">
+                    <form>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition duration-300" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition duration-300" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition duration-300" placeholder="Project Inquiry">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition duration-300" placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full gradient-bg text-white font-medium py-3 px-6 rounded-lg hover:opacity-90 transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="text-2xl font-bold gradient-text">Fahreza</a>
+                    <p class="text-gray-400 mt-2">Bridging the physical and digital worlds through technology.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="linkedin" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="twitter" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i data-feather="youtube" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                    © 2023 Fahreza. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Initialize Vanta.js
+        VANTA.GLOBE({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x667eea,
+            color2: 0x764ba2,
+            backgroundColor: 0x0
+        });
+
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>
